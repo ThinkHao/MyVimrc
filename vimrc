@@ -17,3 +17,10 @@ map S :w<CR>
 map Q :q<CR>
  # Reload for 'source $MYVIMRC'
 map R :source $MYVIMRC<CR>
+
+# 安装插件
+call plug#begin('~/.vim/plugged')
+
+Plug 'junegunn/vim-easy-align'
+
+call plug#end()
